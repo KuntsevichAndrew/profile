@@ -1,0 +1,37 @@
+.footer {
+    position: absolute;
+    bottom: 0;
+    margin-right: 0;
+    margin-left: 0;
+    width: 100%;
+    background: linear-gradient(15deg, #10364f, #143f4c, #398a85);
+    font-family: "Apple SD Gothic Neo";
+}
+.social-link {
+    padding: 5px 0 0 0;
+}
+.copyright {
+    font-family: "Apple SD Gothic Neo";
+    padding: 0 0 5px 0;
+    color: white;
+    text-align: center;
+}
+.copyright a:hover {
+    text-decoration: none;
+    color: #dcdcdc;
+}
+
+.linked-in {
+    font-size: 32px!important;
+    color: white;
+}
+.linked-in:hover {
+    color: #dcdcdc;
+}
+.github {
+    font-size: 26px!important;
+    color: white;
+}
+.github:hover {
+    color: #dcdcdc;
+}

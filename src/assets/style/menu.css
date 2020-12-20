@@ -1,0 +1,114 @@
+.menu {
+    background: linear-gradient(10deg, #398a85, #143f4c, #10364f);
+    height: 70px;
+}
+
+.lang {
+    display: inline-block;
+    float: left;
+    position: relative;
+    top: 20%;
+    left: 5%;
+}
+
+.lang-icon {
+    position: relative;
+    top: 10px;
+    margin-right: 5px;
+    color: white;
+}
+.translation {
+    color: white;
+}
+.translation select {
+    color: white;
+}
+.MuiInput-underline:before  {
+    border-bottom: 1px solid white!important;
+}
+.MuiSelect-icon {
+    color: white!important;
+}
+
+.nav {
+    width: 650px;
+    height: 50px;
+    display: inline-block;
+    float: right;
+    position: relative;
+    top: 35%;
+}
+
+.nav a {
+    text-decoration: none;
+    background: none;
+    border: 0;
+    box-sizing: border-box;
+    padding: 14px;
+    height: 40px;
+    margin-right: 5%;
+    box-shadow: inset 0 0 0 2px #939393;
+    color: #ffffff;
+    font-size: inherit;
+    font-weight: 700;
+    position: relative;
+    vertical-align: middle;
+    font-family: "Apple SD Gothic Neo";
+}
+
+.nav a::before, .nav a::after {
+    box-sizing: inherit;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.nav a.active {
+    color: #e2e2e2;
+    box-shadow: inset 0 0 0 2px #e2e2e2;
+}
+
+.nav a {
+    -webkit-transition: color 0.25s;
+    transition: color 0.25s;
+}
+
+.nav a::before, .nav a::after {
+    border: 2px solid transparent;
+    width: 0;
+    height: 0;
+}
+
+.nav a::before {
+    top: 0;
+    left: 0;
+}
+
+.nav a::after {
+    bottom: 0;
+    right: 0;
+}
+
+.nav a:hover {
+    color: #e2e2e2;
+}
+
+.nav a:hover::before, .nav a:hover::after {
+    width: 100%;
+    height: 100%;
+}
+
+.nav a:hover::before {
+    border-top-color: #e2e2e2;
+    border-right-color: #e2e2e2;
+    -webkit-transition: width 0.25s ease-out, height 0.25s ease-out 0.25s;
+    transition: width 0.25s ease-out, height 0.25s ease-out 0.25s;
+}
+
+.nav a:hover::after {
+    border-bottom-color: #e2e2e2;
+    border-left-color: #e2e2e2;
+    -webkit-transition: border-color 0s ease-out 0.5s, width 0.25s ease-out 0.5s, height 0.25s ease-out 0.75s;
+    transition: border-color 0s ease-out 0.5s, width 0.25s ease-out 0.5s, height 0.25s ease-out 0.75s;
+}
