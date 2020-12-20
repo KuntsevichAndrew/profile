@@ -1,0 +1,12 @@
+{
+  "menu": {
+    "about": "About me",
+    "experience": "Experience",
+    "skill": "Skills",
+    "project": "Projects",
+    "contact": "Contacts"
+  },
+  "" : {
+
+  }
+}
