@@ -1,0 +1,29 @@
+.about-container {
+    flex-grow: 1;
+    position: relative;
+    top: 70px;
+}
+.about-title {
+    font-size: 28px;
+    font-weight: bold;
+    color: white;
+    font-family: "Apple SD Gothic Neo";
+    margin-bottom: 2%!important;
+}
+
+.about-container image {
+    height: 400px;
+}
+
+.my-image {
+    height: 400px;
+}
+.desc-title {
+
+}
+.desc-description {
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    font-family: "Apple SD Gothic Neo";
+}
