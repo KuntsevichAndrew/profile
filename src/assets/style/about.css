@@ -2,6 +2,7 @@
     flex-grow: 1;
     position: relative;
     top: 70px;
+    justify-content: center;
 }
 .about-title {
     font-size: 28px;
@@ -12,7 +13,7 @@
 }
 
 .about-container image {
-    height: 400px;
+    height: inherit;
 }
 
 .my-image {
