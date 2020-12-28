@@ -1,0 +1,51 @@
+.contact-container {
+    flex-grow: 1;
+    position: relative;
+    top: 70px;
+    justify-content: center;
+}
+.contact-title {
+    padding: 2%;
+    color: white;
+}
+
+.contact-input {
+    margin: 2%!important;
+    border: #939393!important;
+}
+
+.contact-input .MuiOutlinedInput-notchedOutline {
+    border-color: #939393!important;
+}
+
+.contact-input label {
+    color: white;
+}
+
+.contact-input label.Mui-focused {
+    color: white;
+}
+
+.contact-input input{
+    color: white;
+}
+
+.contact-company, .contact-name{
+    width: 46%;
+}
+
+
+.contact-email, .contact-message{
+    width: 96%!important;
+}
+
+.contact-button {
+    width: auto;
+    border-color: #398a85!important;
+    color: white!important;
+}
+.contact-button:hover {
+    border-color: #225a61!important;
+    color: #10364e!important;
+    background-color: #378682!important;
+}
