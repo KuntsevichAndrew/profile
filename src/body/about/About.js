@@ -15,11 +15,11 @@ class About extends Component {
                     <ReactTypingEffect text={t("about.title")}/></Grid>
 
                 <Grid container justify="center"
-                      alignItems="center" direction="row" md={12} lg={12} xs={12} spacing={3}>
-                    <Grid item md={4} lg={4} xs={4}>
+                      alignItems="center" direction="row" spacing={3}>
+                    <Grid item md={4} lg={4} xs={12}>
                         <img src={MeImage} className="my-image"/>
                     </Grid>
-                    <Grid item md={8} lg={8} xs={8}>
+                    <Grid item md={8} lg={8} xs={12}>
                         <Typography className="desc-description">{t("about.description")}</Typography>
                     </Grid>
                 </Grid>
